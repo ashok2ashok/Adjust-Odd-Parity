@@ -1,0 +1,128 @@
+# Adjust-Odd-Parity
+Adjust the entered input runtime key to odd parity specifically for DES encryption. 
+This is considered to be legacy and is just a placeholder implementation.
+
+When executed without any inputs, a sample text is passed as input and executed. The output / result looks like:
+
+```
+Please pass the Key as a runtime argument to adjust for Odd Parity...
+
+--Sample implementation is printed below:
+
+
+--Key String before adjusting Parity bits: 
+d8732a6681e7133e545f100d8db9c61ad8732a6681e7133e
+
+--Binary Bits before adjusting Parity bits: 
+01100100
+00111000
+00110111
+00110011
+00110010
+01100001
+00110110
+00110110
+00111000
+00110001
+01100101
+00110111
+00110001
+00110011
+00110011
+01100101
+00110101
+00110100
+00110101
+01100110
+00110001
+00110000
+00110000
+01100100
+00111000
+01100100
+01100010
+00111001
+01100011
+00110110
+00110001
+01100001
+01100100
+00111000
+00110111
+00110011
+00110010
+01100001
+00110110
+00110110
+00111000
+00110001
+01100101
+00110111
+00110001
+00110011
+00110011
+01100101
+
+----Applying Odd Parity Bits-----
+****--Completed application of Odd Parity Bits--****
+
+Verifying if Odd Parity has been applied: true
+
+--Binary Bits after adjusting Parity bits: 
+01100100
+00111000
+00110111
+00110010
+00110010
+01100001
+00110111
+00110111
+00111000
+00110001
+01100100
+00110111
+00110001
+00110010
+00110010
+01100100
+00110100
+00110100
+00110100
+01100111
+00110001
+00110001
+00110001
+01100100
+00111000
+01100100
+01100010
+00111000
+01100010
+00110111
+00110001
+01100001
+01100100
+00111000
+00110111
+00110010
+00110010
+01100001
+00110111
+00110111
+00111000
+00110001
+01100100
+00110111
+00110001
+00110010
+00110010
+01100100
+
+--Key String after adjusting Parity bits: 
+d8722a7781d7122d444g111d8db8b71ad8722a7781d7122d
+
+ *** Above is for ILLUSTRATION Purposes ONLY and not for actual input ****
+
+Process finished with exit code 0
+
+```
